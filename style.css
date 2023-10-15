@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: grey;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 960px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 10));
+  gap: 5px;
+  margin: 20px;
+}
+.sketch-divs {
+  background-color: violet;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px;
+}
+/* .sketch-divs:before {
+  content: "";
+  display: inline-block;
+  padding-top: 100%;
+} */
