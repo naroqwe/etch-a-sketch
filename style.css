@@ -12,21 +12,18 @@ body {
   align-items: center;
 }
 .container {
-  width: 960px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(50px, 10));
-  gap: 5px;
+
   margin: 20px;
+  border: 1px solid red;
 }
 .sketch-divs {
   background-color: violet;
   border: 1px solid black;
   text-align: center;
   padding: 20px;
+  height: 5px;
+  width: 5px;
 }
-/* .sketch-divs:before {
-  content: "";
-  display: inline-block;
-  padding-top: 100%;
-} */
