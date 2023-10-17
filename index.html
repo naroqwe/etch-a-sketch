@@ -10,16 +10,18 @@
 </head>
 
 <body>
-  <button class="button">ADD DIV</button>
-  <input type="number" class="grid-size">
-
-  <input type="radio" class="pen" name="radio-btn" value="pen">
-  <label for="pen">PEN</label>
-
-  <input type="radio" class="eraser" name="radio-btn" value="eraser">
-  <label for="eraser">ERASER</label>
-
   <div class="main">
+    <div class="options-bar">
+      <button class="button">CHANGE GRID SIZE</button>
+      <input type="number" class="grid-size" min="2" max="64">
+      <!-- <input type="range" class="grid-size" min="2" max="64" value="16"> -->
+
+
+      <label for="pen"><input type="radio" id="pen" name="radio-btn" value="pen"> PEN</label>
+      <label for="eraser"><input type="radio" id="eraser" name="radio-btn" value="eraser"> ERASER</label>
+      <label for="color-picker">CHOOSE COLOR<input type="color" id="color-picker"> </label>
+    </div>
+
     <div class="container">
 
     </div>

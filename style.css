@@ -11,13 +11,21 @@ body {
   justify-content: center;
   align-items: center;
 }
+.options-bar {
+  display: flex;
+  /* align-items: center; */
+  scale: 1.2;
+  flex-direction: column;
+
+  margin: 20px;
+}
 .container {
   width: 500px;
   height: 500px;
   display: grid;
 
   margin: 20px;
-  border: 1px solid red;
+  border: 1px solid black;
 }
 .sketch-divs {
   background-color: violet;
